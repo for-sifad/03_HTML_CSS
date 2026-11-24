@@ -1,0 +1,23 @@
+.top-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.top-container h3 {
+    font-size: 30px;
+}
+
+.top-container input {
+    width: 200px;
+    height: 25px
+}
+
+.top-container button {
+    padding: 6px 10px
+}
+
+#for-more {
+    display: block;
+    font-size: 24px;
+}
