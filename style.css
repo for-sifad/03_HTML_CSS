@@ -32,3 +32,13 @@ form button {
     margin: 10px 0px 20px;
     padding: 4px 10px;
 }
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table td, th {
+    border: 1px solid black;
+    padding: 6px 10px;
+}
