@@ -22,7 +22,8 @@
     font-size: 24px;
 }
 
-form input, select, 
+form input,
+select,
 textarea {
     display: block;
     margin-bottom: 7px;
@@ -33,12 +34,42 @@ form button {
     padding: 4px 10px;
 }
 
-table{
+table {
     border-collapse: collapse;
     border: 1px solid black;
 }
 
-table td, th {
+table td,
+th {
     border: 1px solid black;
     padding: 6px 10px;
+}
+
+.card-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-container {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+
+}
+
+.card-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-container button {
+    padding: 4px 10px;
 }
